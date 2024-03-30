@@ -33,8 +33,12 @@ sudo systemctl restart wazuh-agent
 
 #wazu server
 Add the following rules to the /var/ossec/etc/rules/local_rules.xml file on the Wazuh server. These rules alert about changes in the /home/wazu-linuc-agent directory that are detected by FIM scans.
+![image](https://github.com/George-1100/wazuh-Lab/assets/76154087/46449576-fb47-4965-825e-f557fd451a71)
+
 Add the virus total configuration to the Wazuh server /var/ossec/etc/ossec.conf
 Append the remove-threat.sh blocks to the Wazuh server /var/ossec/etc/ossec.conf
+![image](https://github.com/George-1100/wazuh-Lab/assets/76154087/ae90f84d-dc0c-408d-a051-15f30ff30e06)
+
 sudo systemctl restart wazuh-manager
 ![image](https://github.com/George-1100/wazuh-Lab/assets/76154087/60dca628-cc27-4c4f-9112-e72badfd699c)
 
